@@ -1,46 +1,36 @@
 .header {
-    height: 100px;
+    display: flex;
     background-color: darkgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 20px;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    padding: 25px 0 0 30px;
 }
 
-.header div {
-    padding-top: 15px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+.header ul li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: right;
 }
 
-.header div ul {
-    list-style-type: none;
-    margin: -65px 30px;
-}
-
-.header div ul li {
-    display: inline-block;
+.header a {
+    color: black;
+    font-size: 45px;
     margin-left: 25px;
 }
 
-a {
-    color: black;
-    font-size: 45px;
-}
-
-.landing-image {
-    background-image: url(cool-cat.jfif);
-    height: 600px;
-    width: 100%;
+.landing-image img {
+   width: 100%;
 }
 
 .about-me {
     height: 250px;
     width: 70%;
-    float:right;
+    float: right;
 }
 
 .about-me-title p {
