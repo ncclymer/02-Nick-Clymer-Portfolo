@@ -16,4 +16,4 @@ Site URL: https://ncclymer.github.io/02-Nick-Clymer-Portfolo/
 
 Git repository: https://github.com/ncclymer/02-Nick-Clymer-Portfolo
 
-Screen shot: ![Porfolio Image](assets/img/02-screenshot)raw=true
+Screen shot: ![Porfolio Image](assets/img/02-screenshot.png)
