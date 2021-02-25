@@ -1,13 +1,19 @@
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+# 02-Nick-Clymer-Portfolio
+
+Client has asked to create a landing portfolio page with the following criteria:
+
+1. When site is loaded the user should see the developer's name, a recent photo, and links to sections about them, their work, and how to contact them. Complete
+
+2. When the navigation links are clicked the UI scrolls to the corresponding section. Complete.
+
+3. The first applicaiton in the developer's work section should be larger than the others. Complete
+
+4. Application images are links to the relevent deployed application. *Images are currently only placeholders as there are not enough deployed projects to fullfill the request*. Complete
+
+5. Site should be mobile responsive. Complete.
+
+Site URL: https://ncclymer.github.io/02-Nick-Clymer-Portfolo/
+
+Git repository: https://github.com/ncclymer/02-Nick-Clymer-Portfolo
+
+Screen shot: ![Porfolio Image](https://octodex.github.com/images/yaktocat.png)

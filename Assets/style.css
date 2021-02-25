@@ -104,6 +104,8 @@ header a {
     background-image: var(--image1);
     background-size: cover;
     width: 95%;
+    color: black;
+    text-decoration: none;
 }
 
 .box-tag {
@@ -111,6 +113,8 @@ header a {
     padding: 20px;
     margin: 25px;
     background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
 }
 
 .box-b {
@@ -120,6 +124,8 @@ header a {
     background-image: url(img/nasa-Q1p7bh3SHj8-unsplash.jpg);
     background-size: cover;
     width: 23%;
+    color: black;
+    text-decoration: none;
 }
 .box-c {
     display: flex;
@@ -128,6 +134,8 @@ header a {
     background-image: url(img/christopher-burns-Kj2SaNHG-hg-unsplash.jpg);
     background-size: cover;
     width: 23%;
+    color: black;
+    text-decoration: none;
 }
 
 .box-d {
@@ -137,6 +145,8 @@ header a {
     background-image: url(img/fabio-oyXis2kALVg-unsplash.jpg);
     background-size: cover;
     width: 23%;
+    color: black;
+    text-decoration: none;
 }
 
 .box-e {
@@ -146,6 +156,8 @@ header a {
     background-image: url(img/joshua-sortino-LqKhnDzSF-8-unsplash.jpg);
     background-size: cover;
     width: 23%;
+    color: black;
+    text-decoration: none;
 }
 
 /*Contact container*/
