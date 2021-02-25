@@ -1,0 +1,220 @@
+:root {
+    --image1:url(img/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Header bar and nav*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: darkgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.splash {
+    padding: 60px;
+    margin-bottom: 5px;
+    border: solid 3px black;
+    background-image: url(img/IMG_5774.JPG);
+    background-size: cover;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header a {
+    color: black;
+    font-size: 45px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+/*Hero top image*/
+.landing-image img {
+   width: 100%;
+}
+
+/*About container*/
+.about {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.about-title {
+    width: 30%;
+    margin-right: 5px;
+    border-right: 3px solid black;    
+}
+
+.about-content {
+    width: 70%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.about-content p {
+    text-indent: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*Work container*/
+.work {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.work-title {
+    width: 30%;
+    margin-right: 5px;
+    border-right: 3px solid black;
+}
+
+.flex-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-a {
+    display: flex;
+    border: solid 4px black;
+    margin: 5px;
+    background-image: var(--image1);
+    background-size: cover;
+    width: 95%;
+    color: black;
+    text-decoration: none;
+}
+
+.box-tag {
+    border: solid 1px black;
+    padding: 20px;
+    margin: 25px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+}
+
+.box-b {
+    display: flex;
+    border: solid 4px black;
+    margin: 5px;
+    background-image: url(img/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size: cover;
+    width: 23%;
+    color: black;
+    text-decoration: none;
+}
+.box-c {
+    display: flex;
+    border: solid 4px black;
+    margin: 5px;
+    background-image: url(img/christopher-burns-Kj2SaNHG-hg-unsplash.jpg);
+    background-size: cover;
+    width: 23%;
+    color: black;
+    text-decoration: none;
+}
+
+.box-d {
+    display: flex;
+    border: solid 4px black;
+    margin: 5px;
+    background-image: url(img/fabio-oyXis2kALVg-unsplash.jpg);
+    background-size: cover;
+    width: 23%;
+    color: black;
+    text-decoration: none;
+}
+
+.box-e {
+    display: flex;
+    border: solid 4px black;
+    margin: 5px;
+    background-image: url(img/joshua-sortino-LqKhnDzSF-8-unsplash.jpg);
+    background-size: cover;
+    width: 23%;
+    color: black;
+    text-decoration: none;
+}
+
+/*Contact container*/
+.contact {
+    display: flex;
+}
+
+.contact-title {
+    width: 30%;
+    margin-right: 5px;
+    border-right: 3px solid black;
+}
+
+.contact ul {
+    width: 63%;
+}
+
+.contact li {
+    display: inline-flex;
+    padding: 20px;
+}
+
+.contact a {
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+/*mobile responsive sizing*/
+@media screen and (max-width: 1420px) {
+    .box-b {
+      width: 48%;
+      }
+    .box-c {
+        width: 48%;
+      }
+    .box-d {
+         width: 48%;
+      }
+    .box-e {
+         width: 48%;
+      }
+
+@media screen and (max-width: 735px) {
+    .box-b {
+        width: 90%;
+    }
+    .box-c {
+        width: 90%;
+    }
+    .box-d {
+         width: 90%;
+    }
+    .box-e {
+         width: 90%;
+    }
+}
+}
